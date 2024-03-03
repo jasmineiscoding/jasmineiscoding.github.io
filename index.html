@@ -3,61 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jasmine Chhetry</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-    <h1>Jasmine Chhetry</h1>
-    <img src="Jas.jpg" alt="Image of starry night by Van Gogh" height="400px" width="400px">
-    <h2> These are the things I like</h2>
-    <ul>
-        <li>Movies</li>
-        <li>Poems</li>
-        <li>Pomogranate</li>
-      </ul>
-      <ol>
-        <li>Don't be rediculous, I hate coffee</li>
-        <li>Juice</li>
-        <li>What else?</li>
-      </ol>
-      <label for="cars">Choose a painter:</label>
-
-<select id="Painters">
-  <option value="volvo">Monet</option>
-  <option value="saab">Van Gogh</option>
-  <option value="opel">Prasy</option>
-  <option value="audi">Picasso</option>
-</select> 
-
-<!-- <input type="radio" id="html" name="fav painter" value="Van gogh">
-  <label for="html">Van gogh</label><br>
-  <input type="radio" id="css" name="fav_painter" value="Monet">
-  <label for="css">Monet</label><br>
-  <input type="radio" id="javascript" name="fav_painter" value="Prashy">
-  <label for="javascript">Prashy</label>
-</input>
-       -->
-       <!-- <fieldset> -->
-        <!-- <legend>Select a maintenance drone:</legend> -->
-      <br><br><br>
-        <div>
-          <input type="radio" id="huey" name="drone" value="huey" checked />
-          <label for="huey">Huey</label>
+<body class="jas">
+    <div class="hero-section">
+        <img class="heroine-image" src="Jas.jpg">
+        <!--<button class="butt">email me</button>-->
+        <h2 class="jas1"> Jasmine Chhetry</h2>
+        <p class="jas2"> Poet not Published</p>
+    </div>
+    <div class="workss">
+        <h2 class="work1"> Writer </h2>
+        <h2 class="work2"> Graphic Designer </h2>
+        <h2 class="work3"> UI/UX Designer </h2>
+            <ul class="done1">
+                <li> literary enthuasiast </li>
+                <li> has written hundreds of poems</li> 
+                <li> winner of wissenmonk poetry contest on mental health awarness </li>
+                <li> 9+ years of experience </li>
+                <li> writes poetries, short stories, proses, essays and comprehensive texts </li>
+            </ul>
+            <ul class="done2"> 
+                <li> completed 3-month certified internship in graphic designing & book formatting from wissenmonk</li>
+                <li> worked as a grashic designer at wissenmonk post internship </li>
+                <li> freelancing since a year as a graphic designer</li>
+            </ul>
+            <ul class="done3">
+                <li> beginner </li>
+                <li> self-learning </li>
+            </ul>
+    </div>
+    <hr>
+    <div class="todos-section">
+    <h2> My hobbies:</h2> 
+    <ul> <li> Poetry writing</li>
+        <li> Singing</li> <li> Frolicking</li>
+    </ul>
+    <h2> 
+        My Todo's:
+    </h2>
+    <ol> 
+        <li> <input type="checkbox"> buy keyboard</li>
+        <li> <input type="checkbox"> buy glasses</li>
+    </ol>
+    </div>
+    <hr>
+    <div class="testimonials-section">
+        <h2 style="margin: 20px;"> Testimonials </h2>
+        <div class="testimonials">
+            <img class="test-image" src="NewPortfolio/hack.jpg">
+            <div class="side1">
+                <p><span style="font-weight: bold; font-size: large;">Prashy Sickle</span> CEO of ArtWorld SickNoma </p>
+                <p> "Metaphor for emotions"</p>
+            </div>
         </div>
-      
-        <div>
-          <input type="radio" id="dewey" name="drone" value="dewey" />
-          <label for="dewey">dewey</label>
+        <div class="testimonials">
+            <img class="test-image" src="NewPortfolio/cyber.png">
+            <div class="side1">
+                <p><span style="font-weight: bold; font-size: large;"> Mohit Man</span> Founder of SavingTheLightOfTheDay </p>
+                <p> "Creative, Productive"</p> 
+            </div>
         </div>
-      
-        <div>
-          <input type="radio" id="louie" name="drone" value="louie" />
-          <label for="louie">Monet</label>
+        <hr>
+    </div>
+    <div class="contact-section">
+        <h2> Contact Me </h2>
+        <div class="contact">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name"/> 
+            <br>  <br>
+            <label for="Email">Email:</label>    
+            <input type="email" name="email" id="email">
+            <br> <br>
+            <label for="message"> Message Box: </label> <br>
+            <textarea id="message" name="message" rows="8" cols="30"></textarea>
+            <br> <br>
+            <button class="butt">Submit</button>
+            <button class="butt">Email Me</button>
         </div>
-      </fieldset>
-      <!-- <h1>Bipson ley banako</h1 -->
-        <h1>hello</h1> 
+        <div class="location">
+            <h2> My Location:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.6091153708103!2d87.28800507522098!3d26.820572176702175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef41779d76a78d%3A0x2b640514faa9ea05!2sVijayapur%20Chowk!5e0!3m2!1sen!2snp!4v1709124374025!5m2!1sen!2snp" width="850px" height="400px" style="border: 2px; color: aliceblue;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        </div>
+    </div>
+    <hr>
+    <div class="footer-section">&copy;Made By JC</div>
 
-      
-      
+    </div>
+    
 </body>
 </html>
